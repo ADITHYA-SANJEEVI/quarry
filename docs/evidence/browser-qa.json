@@ -1,0 +1,13 @@
+{
+  "screenshots": [
+    "search.png",
+    "workers.png"
+  ],
+  "viewport": "1440x1140",
+  "browser": "156.0.8078.4",
+  "consoleErrors": [],
+  "mobileOverflow": false,
+  "actualMode": "parallel",
+  "workerCount": 2,
+  "images_reviewed_at_native_resolution": true
+}

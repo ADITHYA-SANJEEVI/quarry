@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quarry — search workbench</title>
+<link rel="stylesheet" href="/static/workbench.css">
+<body>
+<header><a class="wordmark" href="/">◈ quarry<span>SEARCH SYSTEMS</span></a><nav><a href="/docs">API reference ↗</a><a href="https://github.com/ADITHYA-SANJEEVI/quarry">Source ↗</a></nav></header>
+<main>
+<div class="eyebrow">COMMERCE SEARCH / ENGINEERING WORKBENCH <span class="badge">LOCAL · SYNTHETIC DATA</span></div>
+<section class="intro"><div><h1>Find the product.<br><em>Keep the constraints.</em></h1><p>Natural language in. Deterministic rankings out.<br>Inspect the evidence, eligibility gates, and process execution behind each search.</p></div><div class="principle"><span>THE EXECUTION CONTRACT</span><p>Parallelize the features.<br>Preserve the decision.</p><small>Global corpus statistics · global rank fusion<br>Immutable snapshots · bounded worker pools</small></div></section>
+<form id="search-form"><label for="query">01 / YOUR REQUEST</label><div class="query-row"><input id="query" name="query" value="i need a gud speakr under 5000" maxlength="300" minlength="2" required aria-label="Natural language product query"><button id="submit" type="submit">Search catalogue ↗</button></div>
+<div class="controls"><label>Catalogue <select id="dataset"><option value="studio-1000-v1">1,000 products</option><option value="studio-10000-v1">10,000 products</option><option value="studio-50000-v1">50,000 products</option></select></label><label>Execution <select id="mode"><option value="serial">Serial reference</option><option value="parallel">Process workers</option><option value="auto">Automatic</option></select></label><label>Workers <select id="workers"><option>1</option><option selected>2</option><option>4</option><option>8</option></select></label><span>Fictional products · INR · checkout disabled</span></div></form>
+<div id="status" role="status">Ready. Submit a query to inspect a real engine response.</div>
+<section id="output" hidden><div class="section-heading"><h2>02 / RANKED RESULTS</h2><span id="summary"></span></div><div id="results" class="results"></div><div class="inspection"><section><h2>03 / CONSTRAINTS & EVIDENCE</h2><div id="constraints"></div></section><section><h2>04 / EXECUTION OBSERVATION</h2><div id="metrics" class="metrics"></div><p class="note">Single request observations include application work. These values are not benchmark results or proof of speedup.</p></section></div><details><summary>Inspect the complete API response</summary><pre id="raw"></pre></details></section>
+<footer><span>QUARRY / DETERMINISTIC PARALLEL COMMERCE SEARCH</span><span>BM25 + fuzzy + trigrams → global RRF → eligibility → commerce ranking</span></footer>
+</main><script src="/static/workbench.js"></script>
+</body></html>

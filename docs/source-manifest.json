@@ -1,0 +1,486 @@
+{
+  "base_commit": "4bc0bf4",
+  "note": "Working tree snapshot, including untracked HPC source; not a copy of the original Git history. Hashes describe initial extraction, before documented release fixes.",
+  "files": [
+    {
+      "path": "backend/app/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "backend/app/__init__.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/api/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "backend/app/api/__init__.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/api/hpc_experiments.py",
+      "sha256": "f9827d8eabe2d0664a38616d770ddff6745858f19689bf6a1ee2effad29f3002",
+      "origin": "backend/app/api/hpc_experiments.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/core/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "backend/app/core/__init__.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/core/config.py",
+      "sha256": "b29c580a06d21c57601b86fc3bac17306e3b0d7af061e77c18eef685932a30b6",
+      "origin": "backend/app/core/config.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/db/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "backend/app/db/__init__.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/db/base.py",
+      "sha256": "987edfd9dfe38b2c49492c7d1a4e774015d16b72e2281b018e4160be6b47d560",
+      "origin": "backend/app/db/base.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/db/electronics_fact_data.py",
+      "sha256": "4b2266a064922a5869b8348cf5c8a826822e589d67bb53fc2f1f7b30c2ae4444",
+      "origin": "backend/app/db/electronics_fact_data.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/db/seed_data.py",
+      "sha256": "923261a349bff2fd9123bf0ac4eb8265f028abc7262d3d08f41955eef12b5054",
+      "origin": "backend/app/db/seed_data.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/domain/__init__.py",
+      "sha256": "5584c768b599feb41f1c32c7cc1b3866c634080a1935dfc7b34ec6d371eb7817",
+      "origin": "backend/app/domain/__init__.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/domain/catalogue_facts.py",
+      "sha256": "f17063a859eaf03aaab0085f0a5904642535aec400cb426def026283b26cfa3f",
+      "origin": "backend/app/domain/catalogue_facts.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/models/__init__.py",
+      "sha256": "720c06ef52acd81e5f924d6a5d9fba432ed15eb5fb24579265179ac1db13666c",
+      "origin": "backend/app/models/__init__.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/models/agentic.py",
+      "sha256": "d6dc14908e538c1d761ee2e23fdf9b0a62a8efe45395e5c7f89ca2b36269eed6",
+      "origin": "backend/app/models/agentic.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/models/commerce_event.py",
+      "sha256": "29fc974c8cd939101aafb46a882196dd33a67d7a863deda6b88d7d4c9ba5d33b",
+      "origin": "backend/app/models/commerce_event.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/models/commerce_memory.py",
+      "sha256": "9d02004e62d67060722b500031ac3384ab5f4c8dc30c28beb098b1e83d6206c7",
+      "origin": "backend/app/models/commerce_memory.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/models/commerce_proposition.py",
+      "sha256": "9e61c44c9d17068db75e1ce80ba528d9647b89eae1bb2843d59418533483ebad",
+      "origin": "backend/app/models/commerce_proposition.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/models/merchant_control.py",
+      "sha256": "43f028c84567f156d5f7e573b345d897441eed5903117718fde3c72dd7cde541",
+      "origin": "backend/app/models/merchant_control.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/models/merchant_offer.py",
+      "sha256": "38994dac4fec72117f929e1e963c53be72df291f1fddf4d173f05448c41ea4f6",
+      "origin": "backend/app/models/merchant_offer.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/models/order.py",
+      "sha256": "0652f2108c1c900b7d7436dd20348d69de4386799c6f5f2513e6572d2e6358a8",
+      "origin": "backend/app/models/order.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/models/product.py",
+      "sha256": "6f0c76c59bbce579f8900004d220be44a61bf4ad9df2637c6cdd381418d81f5d",
+      "origin": "backend/app/models/product.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/models/product_fact.py",
+      "sha256": "ae9fe7460a60a69d7722056285bd67d23ec09b89056c77611024cced9edbf5f9",
+      "origin": "backend/app/models/product_fact.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/models/shadow_catalogue.py",
+      "sha256": "59045cff5b49072263bb9b3b1f555d5d30f8a0fe40d04defcda6c41e6ca17200",
+      "origin": "backend/app/models/shadow_catalogue.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/schemas/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "backend/app/schemas/__init__.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/schemas/commerce_decision.py",
+      "sha256": "5b20abfca84fe97a4f65dbb95dfec85ab01c212c51c348402a191076d5ee5d51",
+      "origin": "backend/app/schemas/commerce_decision.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/schemas/commerce_events.py",
+      "sha256": "7cf5f161babb71f629d602318bb54a692c154a5ced5858b7f3e60ff413495e4c",
+      "origin": "backend/app/schemas/commerce_events.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/schemas/experiments.py",
+      "sha256": "7903137e0a56f1f69e29280e27167a0bba777cdb3c0263358cd671e6f9f50f42",
+      "origin": "backend/app/schemas/experiments.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/schemas/hpc.py",
+      "sha256": "0679ef2addb0966bda54b09ab5c4c539330200562a817d8407e52d6d2a46ebe6",
+      "origin": "backend/app/schemas/hpc.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/schemas/intent.py",
+      "sha256": "6e5562f935844f92237b9f8b1b1a7bfa4b8c61975b3ba11cd8de0bf260905f73",
+      "origin": "backend/app/schemas/intent.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/schemas/intent_proposal.py",
+      "sha256": "89f40020a83fe7b7f883dad658b0cf17e58dae8411832950e586e0c5b92a0d9c",
+      "origin": "backend/app/schemas/intent_proposal.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/schemas/orders.py",
+      "sha256": "297585636b3ec788ef19cd576c2bea77ea8bd98942434541657ecd1d10ef871f",
+      "origin": "backend/app/schemas/orders.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/schemas/research.py",
+      "sha256": "c5948972c938b7315894657c29c2b58314473cd9d961fea2e5f88b0c716fa3dc",
+      "origin": "backend/app/schemas/research.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "backend/app/services/__init__.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/adequacy.py",
+      "sha256": "877bd3afa0028ed679852ab1a8f1142f2790f90af55a65c20dcd911fce243373",
+      "origin": "backend/app/services/adequacy.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/application_observation.py",
+      "sha256": "7801dda38312a199eeb612b92240f8ec6650cc427a30a4dfb31db44ded7bb4ce",
+      "origin": "backend/app/services/application_observation.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/catalogue_evidence.py",
+      "sha256": "5b02f4145577924c8040e41315ea13acdae79f54f91c867380c147215460ffc7",
+      "origin": "backend/app/services/catalogue_evidence.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/commerce_compiler.py",
+      "sha256": "f8146679841cfa1e86fb0c874091c4db697efc0e07b5fe068459461a27aa02fa",
+      "origin": "backend/app/services/commerce_compiler.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/commerce_decision.py",
+      "sha256": "f2248a852a3d36111e37de54440760eb8161e7c8009d5997d1e440d66110f690",
+      "origin": "backend/app/services/commerce_decision.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/commerce_events.py",
+      "sha256": "61e8b67f1aa68944d501c5cfef19da22d4e26e9527af64fb56376f79fd0d659c",
+      "origin": "backend/app/services/commerce_events.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/commerce_ranker.py",
+      "sha256": "3aedf08c67fbf3f4cf78415178e7bd89dab42e00e94cc6c0b82bb0e3434ebff0",
+      "origin": "backend/app/services/commerce_ranker.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/constraints.py",
+      "sha256": "5243aa5da809edfd7834465ac3154de5d989a6c44dc18bf4c62195c6e485cbaf",
+      "origin": "backend/app/services/constraints.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/__init__.py",
+      "sha256": "442acc7529f7cbb2b429f3dfd789109be5a6129704ed4e297a179829e8ab9184",
+      "origin": "backend/app/services/hpc/__init__.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/catalogues.py",
+      "sha256": "32239c84af3dea3fc5d31f31b5c09efce3a84c1c34c6e97846cd8f2a978c8a8c",
+      "origin": "backend/app/services/hpc/catalogues.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/cli.py",
+      "sha256": "ce9af28c470eec172be62d60df45d10235c3e4a33c8bef90cc13440359658247",
+      "origin": "backend/app/services/hpc/cli.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/context.py",
+      "sha256": "507ed92a65231633dbbdb8160219b6909b9c65dd725823cc52907ae547a26275",
+      "origin": "backend/app/services/hpc/context.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/contracts.py",
+      "sha256": "1d094b70d99bc10d1dd62839097fe0ef66dcd0c63ba689f4dd8887a147eb8bfb",
+      "origin": "backend/app/services/hpc/contracts.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/demo_search.py",
+      "sha256": "88f663cc28b6da2f10a4fbad2b72982fb11c5c6e52cffa1eb71efa10f361e225",
+      "origin": "backend/app/services/hpc/demo_search.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/engine.py",
+      "sha256": "6570e268c5de02e16f863d7d87606ead634e70421f2f1aa916fb0c0740221969",
+      "origin": "backend/app/services/hpc/engine.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/experiment_store.py",
+      "sha256": "fab44a5cf2fa5fcf414853309b7d0f7ce3b85937bb1f67524f16d774191d0ad8",
+      "origin": "backend/app/services/hpc/experiment_store.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/experiments.py",
+      "sha256": "b7f91ab44101b5b3835c6788b1b7207042e125177409507962ceebf6bbd86614",
+      "origin": "backend/app/services/hpc/experiments.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/fair_gate.py",
+      "sha256": "98571b8426d0a65b80a738e2140b7f25b1fb641cfcb6bc8452a3963c59e42060",
+      "origin": "backend/app/services/hpc/fair_gate.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/features.py",
+      "sha256": "c4d76a68328c8951b723d1404df05a057b22cb5582e523848122fe1553dc2e01",
+      "origin": "backend/app/services/hpc/features.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/integration.py",
+      "sha256": "f921c71025ec86784b84a03e2c7d6549772027d9b224bdf8784cbf3331511d55",
+      "origin": "backend/app/services/hpc/integration.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/metrics.py",
+      "sha256": "5a0b91a4dfe5fda5637c38e80860d9acbce1f86bdb47fb32d433522d8936ffb3",
+      "origin": "backend/app/services/hpc/metrics.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/research_analysis.py",
+      "sha256": "3b3ba3b50a9b631e0f44cfaae2f40869b2595e33913dc05a4a6900f2d0199f61",
+      "origin": "backend/app/services/hpc/research_analysis.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/research_execution.py",
+      "sha256": "6c7b3ce923293480e0f5ce9713ba0c3266ee3517d5cc5c4ffea803fe93e4e493",
+      "origin": "backend/app/services/hpc/research_execution.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/research_quality.py",
+      "sha256": "47d7095d21c3ab87a3a0f1900ce0cbc6e16b6ce773a8046e68d62713a727aba2",
+      "origin": "backend/app/services/hpc/research_quality.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/runtime.py",
+      "sha256": "1ffb5637d035bd8820ff666f45da67615cb11775446fbf69af9a587052a0a92e",
+      "origin": "backend/app/services/hpc/runtime.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/snapshot.py",
+      "sha256": "6ab2d23e9fe0a8a3d03917793cb70c0fa1b2ba10845b4f233453acd7d77e8e1b",
+      "origin": "backend/app/services/hpc/snapshot.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/storage_io.py",
+      "sha256": "93b9a64a96f1e2ab399caee5961acfc28ba5d73db5ef03f50b7f7f53cc0be990",
+      "origin": "backend/app/services/hpc/storage_io.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/tracing.py",
+      "sha256": "7b9866cd331e844d075d699ddfa82ebe5a54e9fc295369f07054750f543b4e72",
+      "origin": "backend/app/services/hpc/tracing.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/hpc/workers.py",
+      "sha256": "7543ac858d3e2b977da343f81fc04746394c72ed74a42483df141ee9351f85b1",
+      "origin": "backend/app/services/hpc/workers.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/intent_interpreter.py",
+      "sha256": "90b753af741c4e505c85c9379f24294eef5a63b7e63c6e44fac48824cb0b512f",
+      "origin": "backend/app/services/intent_interpreter.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/intent_normalization.py",
+      "sha256": "3a94fcf3cd0836e1f0ef35475180974395c49fb8d9598799e0dc150fd2875d48",
+      "origin": "backend/app/services/intent_normalization.py",
+      "modified": true
+    },
+    {
+      "path": "backend/app/services/intent_parser.py",
+      "sha256": "e554fa6a38617119bf38ca146342418e924e7b039977280f7f125ca58acfaeeb",
+      "origin": "backend/app/services/intent_parser.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/language_analysis.py",
+      "sha256": "6205f9ee1c9f80bb978a395a0c6d7d88ad79f120069777a1e2f1da5d3fd05add",
+      "origin": "backend/app/services/language_analysis.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/merchant_commerce_policy.py",
+      "sha256": "db792e800e72bd2cf17b47a700da4b31cd51f35ac8ee1abca3cd2970352a47fe",
+      "origin": "backend/app/services/merchant_commerce_policy.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/relevance.py",
+      "sha256": "24494634e4170fb54eec33435d2f04d912d2f0ddc30877dd3595d913f4c2a131",
+      "origin": "backend/app/services/relevance.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/retrieval.py",
+      "sha256": "2fc82a9e88af92d22e55a98d6e1df68c93224f9569359fc4fafa00c28d5fda0d",
+      "origin": "backend/app/services/retrieval.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/search_service.py",
+      "sha256": "a1b9a74e94c3d62c1abed5b113c373c30b647edcf6dc7601882eab94a2d7bdca",
+      "origin": "backend/app/services/search_service.py",
+      "modified": false
+    },
+    {
+      "path": "backend/app/services/semantic_retrieval.py",
+      "sha256": "66f98734c29b1ace6ed4dd18d32f12623025175d315e5d855647332b94164960",
+      "origin": "backend/app/services/semantic_retrieval.py",
+      "modified": false
+    },
+    {
+      "path": "backend/tests/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "release adaptation",
+      "modified": true
+    },
+    {
+      "path": "backend/tests/conftest.py",
+      "sha256": "eb7e482c3f58c6bf1b92ef020a7bb99e5cd6f27631cf89866848267f7abc47bc",
+      "origin": "backend/tests/conftest.py",
+      "modified": true
+    },
+    {
+      "path": "backend/tests/fixtures/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "origin": "release adaptation",
+      "modified": true
+    },
+    {
+      "path": "backend/tests/fixtures/electronics_catalogue.json",
+      "sha256": "40c2a8340dcb01bdbad79952922fe2456b351be183e4cbb63ebbaf6484cd2dfd",
+      "origin": "backend/tests/fixtures/electronics_catalogue.json",
+      "modified": false
+    },
+    {
+      "path": "backend/tests/fixtures/evaluation_catalogue.py",
+      "sha256": "15f3db2768a105c3c27f105d212ee3ca4ecf29c8d58d51ff97e49954860bf05a",
+      "origin": "backend/tests/fixtures/evaluation_catalogue.py",
+      "modified": false
+    },
+    {
+      "path": "backend/tests/fixtures/search_cases.py",
+      "sha256": "00b6fee9c1f25b209b991bb6c8a1c5b6773b7d4ee276708cc8d1aafb055cbf52",
+      "origin": "release adaptation",
+      "modified": true
+    },
+    {
+      "path": "backend/tests/test_hpc_catalogues.py",
+      "sha256": "2fde0d476b399f2623dad5effdf75b7d1a4d13dbc8b94922bb22533daf04b53e",
+      "origin": "backend/tests/test_hpc_catalogues.py",
+      "modified": false
+    },
+    {
+      "path": "backend/tests/test_hpc_experiments.py",
+      "sha256": "89782a09fd180ff6ae45df3785a39b1c08ed93b6a0268be67cddb6bd7fd8aa55",
+      "origin": "backend/tests/test_hpc_experiments.py",
+      "modified": false
+    },
+    {
+      "path": "backend/tests/test_hpc_parallel.py",
+      "sha256": "a8128064d7b343d488c190c70edbb671ae9891f899c9a87436678d2ef84738f7",
+      "origin": "backend/tests/test_hpc_parallel.py",
+      "modified": true
+    },
+    {
+      "path": "backend/tests/test_hpc_serial_features.py",
+      "sha256": "a3d6855c36d357f962b637701fad7096d0841eebc4ad30440ff197e60924ed94",
+      "origin": "backend/tests/test_hpc_serial_features.py",
+      "modified": true
+    }
+  ]
+}

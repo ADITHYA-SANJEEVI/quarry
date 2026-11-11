@@ -1,0 +1,22 @@
+[
+  {"name":"Orbit A1 Phone","description":"Affordable Android phone with a 6.7 inch display and all-day battery.","category":"phones","price":15999,"stock":18,"tags":["phone","android","6-7-inch","large-screen","non-gaming"]},
+  {"name":"Orbit G9 Phone","description":"Gaming Android phone with fast display and high performance chipset.","category":"phones","price":24999,"stock":12,"tags":["phone","android","gaming","large-screen"]},
+  {"name":"Nimbus Air Pods","description":"Wireless earbuds with noise reduction and compact charging case.","category":"headphones","price":3499,"stock":32,"tags":["wireless","earbuds","bluetooth","budget"]},
+  {"name":"Nimbus Studio Headphones","description":"Over-ear wireless headphones with long battery life and active noise cancellation.","category":"headphones","price":8999,"stock":20,"tags":["wireless","over-ear","noise-cancelling","bluetooth"]},
+  {"name":"Volt 65W USB-C Charger","description":"Compact 65W USB-C PD wall charger for compatible laptops and phones.","category":"chargers","price":2199,"stock":42,"tags":["charger","65w","usb-c","pd","macbook","laptop"]},
+  {"name":"Volt 20W USB-C Charger","description":"Small 20W USB-C charger for phones and everyday accessories.","category":"chargers","price":899,"stock":57,"tags":["charger","20w","usb-c","phone"]},
+  {"name":"Arc USB-C Cable","description":"Durable 1 metre USB-C charging cable for compatible devices.","category":"cables","price":499,"stock":90,"tags":["cable","usb-c","charging"]},
+  {"name":"Mica 14 Laptop","description":"Lightweight 14 inch laptop for study, work and everyday browsing.","category":"laptops","price":48999,"stock":9,"tags":["laptop","14-inch","lightweight","work","study"]},
+  {"name":"Mica Pro 16 Laptop","description":"16 inch creator laptop with powerful graphics for demanding workloads.","category":"laptops","price":109999,"stock":5,"tags":["laptop","16-inch","graphics","creator"]},
+  {"name":"Halo Smartwatch","description":"Fitness smartwatch with heart-rate tracking and a bright display.","category":"wearables","price":5999,"stock":26,"tags":["smartwatch","fitness","wearable"]},
+  {"name":"Halo Fit Band","description":"Simple fitness band with sleep tracking and multi-day battery.","category":"wearables","price":2499,"stock":45,"tags":["fitness","wearable","budget"]},
+  {"name":"PixelShield Clear Case","description":"Clear protective phone case compatible with Pixel 9.","category":"cases","price":799,"stock":40,"tags":["case","pixel-9","clear","phone"]},
+  {"name":"TravelCharge 10000","description":"10000mAh USB-C power bank for travel and everyday charging.","category":"power-banks","price":1799,"stock":31,"tags":["power-bank","10000mah","usb-c","travel"]},
+  {"name":"HomeView Mini Speaker","description":"Compact Bluetooth speaker for music and podcasts at home.","category":"speakers","price":1999,"stock":23,"tags":["speaker","bluetooth","home"]},
+  {"name":"Keyline Mechanical Keyboard","description":"Compact mechanical keyboard with USB-C connection for work setups.","category":"keyboards","price":4299,"stock":16,"tags":["keyboard","mechanical","usb-c","work"]},
+  {"name":"Vista 27 Monitor","description":"27 inch monitor with crisp display for study and office work.","category":"monitors","price":12999,"stock":11,"tags":["monitor","27-inch","work","study"]},
+  {"name":"CableDock USB-C Hub","description":"USB-C hub with HDMI and USB ports for compatible laptops.","category":"hubs","price":2499,"stock":28,"tags":["hub","usb-c","hdmi","laptop","macbook"]},
+  {"name":"QuietPods Lite","description":"Budget wireless earbuds with comfortable fit and charging case.","category":"headphones","price":1999,"stock":38,"tags":["wireless","earbuds","bluetooth","budget"]},
+  {"name":"Outstock 65W Charger","description":"65W USB-C charger kept only to verify availability filtering.","category":"chargers","price":1499,"stock":0,"tags":["charger","65w","usb-c","macbook"]},
+  {"name":"Pearl White Running Earbuds","description":"White wireless earbuds for running and workouts.","category":"headphones","price":2999,"stock":20,"tags":["wireless","earbuds","white","running"]}
+]

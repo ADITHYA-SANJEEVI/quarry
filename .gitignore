@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.venv/
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+backend/artifacts/
+backend/data/hpc/*.jsonl
+*.log
+.github/workflows/

@@ -1,0 +1,24 @@
+{
+  "sizes": [
+    1000
+  ],
+  "workers": [
+    2
+  ],
+  "concurrency": [
+    1
+  ],
+  "scopes": [
+    "scoring",
+    "full"
+  ],
+  "queries": [
+    "usb c charger under 1000"
+  ],
+  "trials": 3,
+  "warmups": 1,
+  "session_budget_seconds": 180,
+  "max_cells_per_session": 2,
+  "query_timeout_seconds": 30,
+  "memory_limit_mb": 2048
+}

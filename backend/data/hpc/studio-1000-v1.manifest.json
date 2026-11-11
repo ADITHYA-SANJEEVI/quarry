@@ -1,0 +1,31 @@
+{
+  "schema_version": "hpc_dataset_v1",
+  "dataset_id": "studio-1000-v1",
+  "generator_version": "studio_catalogue_v1",
+  "seed": 270026,
+  "count": 1000,
+  "sha256": "45376c57a8e04b3acefcf2d59155b53cd8928b378caf2852e04ed2d3f11c8ee5",
+  "file": "studio-1000-v1.jsonl",
+  "categories": {
+    "Audio": 85,
+    "Beauty": 85,
+    "Books": 80,
+    "Computing": 85,
+    "Electronics": 85,
+    "Fashion": 85,
+    "Furniture": 85,
+    "Home appliances": 85,
+    "Home improvement": 80,
+    "Kitchen": 80,
+    "Personal care": 85,
+    "Sports": 80
+  },
+  "available": 926,
+  "archived": 19,
+  "inactive": 22,
+  "out_of_stock": 35,
+  "currency": "INR",
+  "synthetic": true,
+  "checkout_supported": false,
+  "canonical_fact_schema": "v1"
+}
