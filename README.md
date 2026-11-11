@@ -79,6 +79,8 @@ The suite covers exact scalar feature equality with the reference adapter, compl
 
 Validation records and exact results are in [release evidence](docs/release-evidence.md). The original payment/authentication golden harness is outside this release; focused engine tests replace its dependencies. [Source provenance](docs/provenance.md) documents these adaptations.
 
+**Verified:** 85 tests passed in the release environment and again in a fresh GitHub clone. See the [failure and parity evidence map](docs/failure-and-parity.md) for the specific executable guarantees.
+
 ## Performance evidence
 
 Use the retained experiment runner after stopping the web server and other test/benchmark work:
@@ -90,6 +92,8 @@ cd backend
 ```
 
 The small configuration compares the original serial adapter with two process workers at 1,000 products, concurrency one, across scoring and full-search scopes. Untimed exact parity preflight is distinct from warmups and timed observations. Failed observations are retained. [The performance report](docs/performance.md) defines the timing scopes, raw evidence, hardware context, and interpretation.
+
+The retained local diagnostic completed both cells with zero errors. With **three warm samples per mode**, original-reference versus two-process p50 was **101.18 → 55.82 ms** for scoring and **110.92 → 67.09 ms** for full search. This query scored 44 pre-eligible products; the optimized path also reuses cached context. Cold pool startup took about **4.7–4.8 seconds**, outside those warm timings. These observations do not establish an isolated parallelism speedup, broad scaling, or production latency.
 
 The default matrix is **3 catalogue sizes × 4 worker counts × 3 concurrency levels = 36 configurations**, or **72 cells across two scopes**. This release does not claim a completed full matrix. A previously reported **46% median-latency improvement is unverified** and is not a release result. Parallelism can be slower, especially for narrow queries and small candidate sets.
 

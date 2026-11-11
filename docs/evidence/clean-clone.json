@@ -1,0 +1,20 @@
+{
+  "verified_commit": "4a468bd051bb620de5d9c2f9c854b55e9165a993",
+  "python": "3.12.10",
+  "dependency_install": "fresh venv, requirements-lock.txt",
+  "pip_check": "No broken requirements found",
+  "catalogue_sizes": [
+    1000,
+    10000,
+    50000
+  ],
+  "tests": {
+    "name": "pytest",
+    "errors": "0",
+    "failures": "0",
+    "skipped": "0",
+    "tests": "85",
+    "time": "206.826"
+  },
+  "git_status_clean": true
+}

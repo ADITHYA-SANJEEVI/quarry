@@ -14,6 +14,8 @@ The first release prioritizes correctness and reproducible execution. Historical
 
 The comparison is the original serial adapter versus the optimized process path, whose immutable catalogue retains a bounded context cache. The original adapter rebuilds context. A measured difference therefore includes context reuse and integration effects, not just extra processes. The workbench's serial compute mode shares pure-feature primitives and may use the immutable context cache; its request observations are not interchangeable with the experiment's original-reference baseline.
 
+The configured first warmup is the untimed parity preflight itself; `warmups=1` does not add another warmup after it. Timed observations carry `parity_scope=exact_untimed_preflight_same_immutable_inputs`: their parity flag refers to that validated input/configuration, not an extra digest comparison inside each timed interval.
+
 Stop the web server and other benchmark/test work before running the CLI. The benchmark capacity guard coordinates within an application process; it cannot exclude workloads in other OS processes. The release audit does not modify or use Interlock's databases, credentials, or ports and does not run the full matrix.
 
 ## Scale and interpretation
@@ -24,4 +26,20 @@ Default experiment dimensions are 3 sizes × 4 worker counts × 3 concurrency le
 
 Parallel execution is expected to lose on some narrow queries because spawn startup, context serialization, IPC and global coordinator work can dominate. Higher throughput and lower median latency are separate outcomes. Real relevance quality needs independent customer/catalogue judgments beyond the retained synthetic quality module.
 
-The current release's retained measurements and their exact source/environment identity, when available, appear below in an audited follow-up commit. Until then, no numerical speedup is asserted.
+## Measured local diagnostic — 12 November 2026
+
+Run `597f0344-4c03-4f41-bd46-e8f119c8feec` completed **2/2 cells with zero errors**. Each mode/scope has **three timed samples**. Both untimed reference/process digest comparisons matched exactly. The 1K catalogue left **44 pre-eligible feature candidates** for this query; full-search final eligibility contained **16 products**. These are not 1,000-document feature timings.
+
+| Scope | Original reference p50 | Two-process path p50 | Reference successful QPS | Process successful QPS |
+|---|---:|---:|---:|---:|
+| Scoring | 101.18 ms | 55.82 ms | 9.04 | 16.63 |
+| Full search | 110.92 ms | 67.09 ms | 8.20 | 14.63 |
+
+**Interpretation:** this is a small warm-path diagnostic including context-cache differences, not an isolated multiprocessing speedup or a production latency claim. Cold pool startup alone took **4,686.93 ms** in scoring preflight and **4,843.46 ms** in full-search preflight; these costs are outside the warm p50 values above. Short-lived processes can therefore be much slower despite the lower warm samples. The measured timings exclude HTTP and browser rendering. Three samples cannot establish a reliable tail distribution or broad scaling result.
+
+The host reported **6 physical / 12 logical and allocated CPUs**, approximately **15.3 GiB RAM**, **Windows 11**, and **Python 3.12.10**. Only two workers were used. The application server and this release's test runs were stopped; no Interlock pytest process was detected before starting. Unrelated host activity was not controlled, and trials were not randomized or repeated across independent sessions.
+
+Measured source commit: `4a468bd051bb620de5d9c2f9c854b55e9165a993`.
+Normalized application Python-source SHA-256: `51cd135d9167c109ade67d2358f738e56f3f192d5714b8af34723fdc163b545c`.
+
+Reinspect or recompute the summary from [raw JSON](evidence/smoke-run.json) and [timed observation CSV](evidence/smoke-run.csv). The JSON retains source/environment identity, dataset hashes, full configuration, parity preflight digests, startup costs, individual observations, trial wall times, and sampled resources. No historical output was relabelled as this run. The historical 46% claim remains unverified.

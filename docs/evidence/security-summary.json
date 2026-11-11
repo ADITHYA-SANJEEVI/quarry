@@ -1,0 +1,11 @@
+{
+  "scanner": "Gitleaks 8.30.1",
+  "known_secret_findings": 0,
+  "scope": "Final staged export and all commits in the new Quarry snapshot history; original workspace history excluded",
+  "workflow_files": 0,
+  "prohibited_artifacts": 0,
+  "screenshots_native_review": true,
+  "application_source_unchanged_since_tested_commit": "4a468bd051bb620de5d9c2f9c854b55e9165a993",
+  "application_python_sha256": "51cd135d9167c109ade67d2358f738e56f3f192d5714b8af34723fdc163b545c",
+  "owner_and_data_review": "Authored source/fixtures and synthetic generator; dependency licences retained separately"
+}

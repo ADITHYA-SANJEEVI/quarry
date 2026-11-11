@@ -1,0 +1,13 @@
+run_id,cell,size,workers,concurrency,scope,phase,mode,trial,query_index,latency_ms,eligible_count,parity,error
+597f0344-4c03-4f41-bd46-e8f119c8feec,1000/2/1/scoring,1000,2,1,scoring,timed,reference,0,0,94.3890999769792,44,True,
+597f0344-4c03-4f41-bd46-e8f119c8feec,1000/2/1/scoring,1000,2,1,scoring,timed,reference,1,0,101.18019999936223,44,True,
+597f0344-4c03-4f41-bd46-e8f119c8feec,1000/2/1/scoring,1000,2,1,scoring,timed,reference,2,0,132.54609995055944,44,True,
+597f0344-4c03-4f41-bd46-e8f119c8feec,1000/2/1/scoring,1000,2,1,scoring,timed,parallel,0,0,55.82090001553297,44,True,
+597f0344-4c03-4f41-bd46-e8f119c8feec,1000/2/1/scoring,1000,2,1,scoring,timed,parallel,1,0,54.49170002248138,44,True,
+597f0344-4c03-4f41-bd46-e8f119c8feec,1000/2/1/scoring,1000,2,1,scoring,timed,parallel,2,0,68.05710005573928,44,True,
+597f0344-4c03-4f41-bd46-e8f119c8feec,1000/2/1/full,1000,2,1,full,timed,reference,0,0,98.23869995307177,16,True,
+597f0344-4c03-4f41-bd46-e8f119c8feec,1000/2/1/full,1000,2,1,full,timed,reference,1,0,110.91709998436272,16,True,
+597f0344-4c03-4f41-bd46-e8f119c8feec,1000/2/1/full,1000,2,1,full,timed,reference,2,0,115.67920004017651,16,True,
+597f0344-4c03-4f41-bd46-e8f119c8feec,1000/2/1/full,1000,2,1,full,timed,parallel,0,0,65.58819999918342,16,True,
+597f0344-4c03-4f41-bd46-e8f119c8feec,1000/2/1/full,1000,2,1,full,timed,parallel,1,0,67.09330005105585,16,True,
+597f0344-4c03-4f41-bd46-e8f119c8feec,1000/2/1/full,1000,2,1,full,timed,parallel,2,0,69.98769997153431,16,True,

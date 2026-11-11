@@ -14,6 +14,8 @@ The original relevance adapter remains the serial reference. `build_context` com
 
 `ExecutionSearchService` wraps the reference search service with the compute adapter. Both routes then use the same final eligibility, commerce ranker, adequacy policy, and compiler. The ranker has visible and unbounded calls; both remain coordinator work. The compiler's preview subclass replaces persistence with a content-derived preview identifier. No synthetic product becomes a live proposition or purchase.
 
+Fusion uses three global lanes (lexical, fuzzy and character): `rrf = sum(1 / (60 + rank))`; the candidate feature score is `min(1, 22 * rrf + 0.25 * phrase)`. Lane ties use product ID, and fused candidates sort by descending fused score, then price and name. The downstream commerce ranker has its own evidence/preference decomposition; the workbench's explanations come from that existing ranker rather than an external language model.
+
 ## Scheduling, backpressure, and IPC
 
 `ProcessRuntime` owns one persistent `ProcessPoolExecutor` using `spawn`. It initializes every requested child with an immutable snapshot and waits for ready signals. The pool key is `(generation, workers)`. A bounded semaphore limits admitted work (default eight); `FairGate` admits one batch at a time in FIFO order with timeout removal. Two application-level search slots bound concurrent synthetic requests.
